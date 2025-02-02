@@ -1,3 +1,6 @@
+/*
+Ota tämä testi kokonaisuudessaan halutessasi pois kommenteista. HUOM! Katso Ristiseiska/.vscode/settings.json -tiedosto ensiksi.
+
 package src;
 
 import org.junit.jupiter.api.*;
@@ -168,3 +171,4 @@ public class Testi {
         assertTrue(tulosTiedosto.length() > 0);
     }
 }
+*/
