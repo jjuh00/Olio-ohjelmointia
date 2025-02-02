@@ -2,6 +2,6 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "Ristiseiska/lib/junit-jupiter-api-5.12.0-M1.jar"
     ]
 }
