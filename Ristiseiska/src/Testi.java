@@ -1,5 +1,6 @@
 /*
-Ota tämä testi kokonaisuudessaan halutessasi pois kommenteista. HUOM! Katso Ristiseiska/.vscode/settings.json -tiedosto ensiksi.
+// Ota tämä testi kokonaisuudessaan halutessasi (eli silloin, kun haluat ajaa testin) pois kommenteista. 
+// HUOM! Katso .vscode/settings.json -tiedosto ensiksi.
 
 package src;
 
