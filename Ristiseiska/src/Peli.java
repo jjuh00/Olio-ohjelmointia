@@ -41,7 +41,7 @@ public class Peli {
         if (ristiSeiska != null) {
             aloittavaPelaaja = ihminen;
         } else {
-            // Tarkistetaan, onko ristiseiskan tietokoneella
+            // Tarkistetaan, onko ristiseiska tietokoneella
             ristiSeiska = etsiRistiSeiska(tietokone.haeKasi());
             if (ristiSeiska == null) {
                 throw new IllegalStateException("Ristiseiskaa ei löytynyt");
