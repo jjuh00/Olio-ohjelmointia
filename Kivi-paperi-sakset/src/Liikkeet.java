@@ -4,7 +4,7 @@ public class Liikkeet {
     public static String haeLiikkeenNimi(int liike) {
         switch (liike) {
             case 1:
-                return "kivi";
+                return "Kivi";
             case 2:
                 return "Paperi";
             case 3:

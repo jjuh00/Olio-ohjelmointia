@@ -54,8 +54,16 @@ public class Pelaaminen {
         }
     }
 
+    public void asetaVaikeusTaso(int taso) {
+        // Tämä funktio on testaamista varten, jotta vaikeustason asettaminen voidaan testata helposti
+        if (taso < 1 || taso > 3) {
+            throw new IllegalArgumentException("Vaikeutason pitää olla 1-3");
+        }
+        this.vaikeusTaso = taso;
+    }
+
     // Tämä funktio määrittää tietokoneen liikkeen vaikeustason perusteella
-    private int haeTietokoneenLiike(int pelaajanLiike) {
+    public int haeTietokoneenLiike(int pelaajanLiike) {
         switch (vaikeusTaso) {
             case 1:
                 // Jos pelaajan vuoro on ensimmäisenä, pelaaja voittaa
